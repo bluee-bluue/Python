@@ -1,10 +1,7 @@
 # Programas Python
 Projetos para treinar meu conhecimento em Python
 ## Calculadora
-Um programa simples para fazer calculos de adição, subtração, multiplicação e divisão.
-
-## Calculadora de Media
-Um programa que calcula a média entre os números escolhidos pelo usuário.
+Um programa simples para fazer calculos de adição, subtração, multiplicação, divisão ou média dos números escolhidos pelo usuário.
 
 ## Gerenciador de Tarefas
 Um gerenciador de tarefas que adiciona e exibe tarefas digitadas pelo usuário

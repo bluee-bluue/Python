@@ -10,7 +10,8 @@ def main():
         print("2. Subtração")
         print("3. Multiplicação")
         print("4. Divisão")
-        print("5. Sair")
+        print("5. Média")
+        print("6. Sair")
 
         opcao = input("\nDigite o número da opção desejada: ")
 
@@ -32,6 +33,9 @@ def main():
                 comeco()
                 divisao()
             case "5":
+                os.system("cls")
+                Media()
+            case "6":
                 os.system("cls")
                 print("Saindo do programa.")
                 break
@@ -82,6 +86,23 @@ def divisao():
 
     print(f"A divisão dos números é igual a {resultado}")
 
+def Media():
+    quantidade = input("Digite a quantidade: ")
+    resultado = 0
+    numeros.clear()
+    i = 0
+
+    while i < int(quantidade):
+        numero = input(f"Digite o {i+1}o número: ")
+        numeros.append(numero)
+        i += 1
+
+    for n in numeros:
+        resultado += int(n)
+
+    media = resultado / int(quantidade)
+
+    print(f"\nA média dos números é igual a {media}")
 
 if __name__ == "__main__":
     main()
