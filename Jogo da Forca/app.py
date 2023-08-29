@@ -1,11 +1,10 @@
 import random
+import json
 import os
 
-palavras = [
-    "COMPUTADOR", "MONITOR", "PYTHON", "VSCODE", "TERMINAL",
-    "PLACA MAE", "MEMORIA RAM", "PLACA DE VIDEO", "JAVA",
-    "PROCESSADOR", "DISCO RIGIDO", "CELULAR"
-]
+palavras = []
+with open("Jogo da Forca/palavras.json", "r") as arquivo:
+    palavras = json.load(arquivo)
 
 def main():
     palavraSorteada = random.choice(palavras).upper()
