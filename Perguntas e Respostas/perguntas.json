@@ -1,0 +1,36 @@
+[
+    {
+        "pergunta": "O que e o Python? \nA. uma linguagem de programacao \nB. uma linguagem de marcacao \nC. um editor de texto", 
+        "resposta": "A"
+    },
+
+    {
+        "pergunta": "Como voce faz um comentario de uma linha em Python? \nA. usando ( // ) \nB. usando ( ''' ) \nC. usando ( # )", 
+        "resposta": "C"
+    },
+
+    {
+        "pergunta": "Como voce declara uma funcao em Python? \nA. def funcao(): \nB. fun funcao(): \nC. def funcao{}", 
+        "resposta": "A"
+    },
+
+    {
+        "pergunta": "Como imprime algo na tela em Python? \nA. Console.WriteLine() \nB. print() \nC. System.out.println()", 
+        "resposta": "B"
+    },
+
+    {
+        "pergunta": "Como voce faz um comentario em varias linhas em Python? \nA. usando ( /* ) \nB. usando ( ''' ) \nC. usando ( [] )", 
+        "resposta": "B"
+    },
+
+    {
+        "pergunta": "Como se declara um dicionario vazio? \nA. dicionario = {} \nB. dicionario = [] \nC. dicionario = () ",
+        "resposta": "A"
+    },
+
+    {
+        "pergunta": "Como se declara uma lista vazia? \nA. lista = {} \nB. lista = () \nC. lista = [] ",
+        "resposta": "C"
+    }
+]
