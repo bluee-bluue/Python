@@ -10,6 +10,9 @@ Um programa simples para fazer calculos de adição, subtração, multiplicaçã
 ## Gerenciador de Tarefas
 Um gerenciador de tarefas que adiciona e exibe tarefas digitadas pelo usuário
 
+## Gerenciador de Tarefas - Flask
+Um gerenciador de tarefas que cadastra um usuário e as tarefas suas respectivas tarefas
+
 ## Jogo da Forca
 Você terá 6 tentativas para acertar as letras e exibir a palavra sorteada
 
